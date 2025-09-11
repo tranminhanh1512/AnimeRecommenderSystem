@@ -1,0 +1,8 @@
+2025-09-09 16:46:15,162 - INFO - Succesfully read the YAML file
+2025-09-09 16:46:15,162 - INFO - DataIngestion initialized with bucket: mlops-project-01 and files: ['anime.csv', 'anime_with_synopsis.csv', 'animelist.csv']
+2025-09-09 16:46:15,162 - INFO - Starting data ingestion process
+2025-09-09 16:46:16,016 - INFO - Downloaded anime.csv to artifacts/raw/anime.csv
+2025-09-09 16:46:16,321 - INFO - Downloaded anime_with_synopsis.csv to artifacts/raw/anime_with_synopsis.csv
+2025-09-09 16:47:04,438 - INFO - Large file detected. Downloaded first 5 million rows of animelist.csv
+2025-09-09 16:47:04,445 - INFO - Data ingestion process completed successfully
+2025-09-09 16:47:04,445 - INFO - Data ingestion process finished

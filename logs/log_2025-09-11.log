@@ -1,0 +1,13 @@
+2025-09-11 16:58:57,902 - INFO - Data Processing initialized.
+2025-09-11 16:58:58,679 - INFO - Data loaded successfully from artifacts/raw/animelist.csv.
+2025-09-11 16:58:58,832 - INFO - Filtered users with at least 400 ratings.
+2025-09-11 16:58:59,762 - INFO - Scaling done for processing
+2025-09-11 16:58:59,854 - INFO - Encoding done for processing
+2025-09-11 16:59:00,360 - INFO - Data split into training and testing sets.
+2025-09-11 16:59:00,370 - INFO - user2user_encoded saved sucesfully in processed directory
+2025-09-11 16:59:00,377 - INFO - user2user_decoded saved sucesfully in processed directory
+2025-09-11 16:59:00,393 - INFO - anim2anime_encoded saved sucesfully in processed directory
+2025-09-11 16:59:00,408 - INFO - anim2anime_decoded saved sucesfully in processed directory
+2025-09-11 16:59:04,743 - INFO - ALl the training testing data as well as rating_df is saved now..
+2025-09-11 16:59:06,900 - INFO - Anime and synopsis data processed and saved successfully.
+2025-09-11 16:59:06,902 - INFO - Data processing completed successfully.
