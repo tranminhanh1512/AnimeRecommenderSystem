@@ -1,4 +1,8 @@
 venv/
-artifacts/raw
-artifacts/processed
+artifacts/raw/*
+!artifacts/raw/.gitkeep
+
+artifacts/processed/*
+!artifacts/processed/.gitkeep
+
 notebook/weights.weights.h5
