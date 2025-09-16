@@ -1,0 +1,15 @@
+2025-09-15 15:27:06,288 - INFO - Model Training class initiated with data path: artifacts/processed
+2025-09-15 15:27:06,359 - INFO - Data loaded successfully for model training
+2025-09-15 15:27:06,359 - ERROR - Error in train_model method: module 'joblib' has no attribute 'loader'
+2025-09-15 15:27:43,040 - INFO - Model Training class initiated with data path: artifacts/processed
+2025-09-15 15:27:43,069 - INFO - Data loaded successfully for model training
+2025-09-15 15:27:43,083 - INFO - Succesfully read the YAML file
+2025-09-15 15:27:43,083 - INFO - Loaded configuration from config.yaml
+2025-09-15 15:27:43,126 - INFO - Model compiled successfully
+2025-09-15 15:30:06,474 - INFO - Model training completed successfully
+2025-09-15 15:30:06,475 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-15 15:30:06,490 - INFO - Model saved at artifacts/model/model.h5
+2025-09-15 15:30:06,492 - INFO - Weights extracted for layer: user_embedding
+2025-09-15 15:30:06,493 - INFO - Weights extracted for layer: anime_embedding
+2025-09-15 15:30:06,496 - INFO - User weights saved at artifacts/weights/user_weights.pkl
+2025-09-15 15:30:06,496 - INFO - Anime weights saved at artifacts/weights/anime_weights.pkl

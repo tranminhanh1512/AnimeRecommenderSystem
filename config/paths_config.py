@@ -1,4 +1,7 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 ###################### DATA INGESTION ############################
 
@@ -26,3 +29,17 @@ USER2USER_DECODED = "artifacts/processed/user2user_decoded.pkl"
 
 ANIME2ANIME_ENCODED = "artifacts/processed/anim2anime_encoded.pkl"
 ANIME2ANIME_DECODED = "artifacts/processed/anim2anime_decoded.pkl"
+
+###################### MODEL TRAINING ##########################
+
+MODEL_DIR = "artifacts/model"
+WEIGHTS_DIR = "artifacts/weights"
+MODEL_PATH = os.path.join(MODEL_DIR, "model.h5")
+ANIME_WEIGHTS_PATH = os.path.join(WEIGHTS_DIR, "anime_weights.pkl")
+USER_WEIGHTS_PATH = os.path.join(WEIGHTS_DIR, "user_weights.pkl")
+CHECKPOINT_FILE_PATH = "artifacts/model_checkpoint/weights.weights.h5"
+
+###################### COMET ML ##########################
+COMET_ML_API_KEY = os.getenv("COMET_ML_API_KEY")
+COMET_ML_PROJECT_NAME = os.getenv("COMET_ML_PROJECT_NAME")
+COMET_ML_WORKSPACE = os.getenv("COMET_ML_WORKSPACE")

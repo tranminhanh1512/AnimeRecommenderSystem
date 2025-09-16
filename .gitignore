@@ -6,3 +6,5 @@ artifacts/processed/*
 !artifacts/processed/.gitkeep
 
 notebook/weights.weights.h5
+
+.env

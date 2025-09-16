@@ -1,0 +1,13 @@
+2025-09-16 14:27:39,471 - INFO - Model Training class initiated with data path: artifacts/processed
+2025-09-16 14:27:39,472 - INFO - Experiment with COMET_ML initialized
+2025-09-16 14:27:39,969 - INFO - Data loaded successfully for model training
+2025-09-16 14:27:39,983 - INFO - Succesfully read the YAML file
+2025-09-16 14:27:39,983 - INFO - Loaded configuration from config.yaml
+2025-09-16 14:27:40,036 - INFO - Model compiled successfully
+2025-09-16 14:30:03,859 - INFO - Model training completed successfully
+2025-09-16 14:30:03,859 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-16 14:30:03,876 - INFO - Model saved at artifacts/model/model.h5
+2025-09-16 14:30:03,878 - INFO - Weights extracted for layer: user_embedding
+2025-09-16 14:30:03,880 - INFO - Weights extracted for layer: anime_embedding
+2025-09-16 14:30:03,894 - INFO - User weights saved at artifacts/weights/user_weights.pkl
+2025-09-16 14:30:03,894 - INFO - Anime weights saved at artifacts/weights/anime_weights.pkl
