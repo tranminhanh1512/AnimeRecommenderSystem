@@ -1,10 +1,8 @@
 venv/
-artifacts/raw/*
-!artifacts/raw/.gitkeep
-
-artifacts/processed/*
-!artifacts/processed/.gitkeep
-
+artifacts/raw/
+artifacts/processed/
+artifacts/model/
+artifacts/model_checkpoint/
+artifacts/weights
 notebook/weights.weights.h5
-
 .env
