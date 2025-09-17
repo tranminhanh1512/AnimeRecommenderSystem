@@ -1,0 +1,144 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Comic+Neue:wght@400;700&family=Cute+Font&display=swap');
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive; /* playful but readable */
+    background-image: url('https://i.pinimg.com/originals/1e/c3/eb/1ec3eb8a0c3a01df979f4d56f74b6e16.jpg'); /* pastel pink anime vibe */
+    background-size: cover;
+    background-position: center;
+    color: #5a3c45; /* soft chocolate text */
+}
+
+/* Overlay effect to soften background */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 182, 193, 0.6); /* pastel pink overlay */
+    z-index: -1;
+}
+
+/* Form Container */
+.form-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 25px;
+    background: rgba(255, 240, 245, 0.9); /* soft blush */
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(255, 105, 180, 0.3);
+    border: 2px dashed #ffb6c1; /* kawaii border */
+}
+
+/* Heading Styles */
+.form-container h1 {
+    font-size: 2.8rem;
+    font-family: 'Cute Font', cursive; /* bubbly font */
+    margin-bottom: 20px;
+    color: #ff69b4; /* hot pink */
+    text-shadow: 2px 2px 6px rgba(255, 182, 193, 0.6);
+}
+
+/* Form Elements */
+label {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    display: block;
+    color: #ff69b4;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 12px;
+    margin: 15px 0;
+    font-size: 1rem;
+    border: 2px solid #ffb6c1;
+    border-radius: 15px;
+    background: #fff0f5;
+    color: #5a3c45;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(255, 182, 193, 0.5);
+}
+
+/* Buttons */
+button {
+    font-family: 'Baloo 2', cursive; /* chunky cute font */
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    color: #fff;
+    background: linear-gradient(135deg, #ff69b4, #ff85c1); /* pink gradient */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 105, 180, 0.4);
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+    transform: scale(1.05);
+}
+
+/* Results Container */
+.results-container {
+    margin-top: 30px;
+    text-align: left;
+    padding: 20px;
+    background: rgba(255, 240, 245, 0.95);
+    border-radius: 15px;
+    color: #5a3c45;
+    box-shadow: 0 4px 12px rgba(255, 182, 193, 0.5);
+}
+
+.results-container h2 {
+    font-size: 1.8rem;
+    font-family: 'Cute Font', cursive;
+    margin-bottom: 15px;
+    color: #ff69b4;
+    text-shadow: 1px 1px 4px rgba(255, 182, 193, 0.6);
+}
+
+.results-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.results-container li {
+    font-size: 1.1rem;
+    margin: 6px 0;
+    padding: 6px;
+    border-bottom: 1px dashed #ffb6c1;
+    color: #5a3c45;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form-container {
+        margin: 50px auto;
+        padding: 18px;
+    }
+
+    .form-container h1 {
+        font-size: 2.2rem;
+    }
+
+    input[type="number"], button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .results-container h2 {
+        font-size: 1.4rem;
+    }
+
+    .results-container li {
+        font-size: 1rem;
+    }
+}
