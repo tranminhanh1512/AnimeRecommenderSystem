@@ -1,4 +1,5 @@
 # Anime Recommender System
+![Doraemon](https://github.com/user-attachments/assets/c5b006ba-cebd-4249-ad9b-3f88234853fb)
 
 ## Overview
 This project is an anime recommender system built with a hybrid approach that combines user-based collaborative filtering and content-based methods. Data versioning is managed with DVC, and experiments are tracked using Comet.ml for reproducibility. The system is containerized with Docker, integrated into a Jenkins CI/CD pipeline, and deployed on Google Kubernetes Engine (GKE) within Google Cloud Platform (GCP).
