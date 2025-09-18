@@ -62,7 +62,6 @@ This project is an anime recommender system built with a hybrid approach that co
 │   └── logger.py               # Logging utility
 ├── static/                     # Static assets (CSS, etc.)
 ├── templates/                  # HTML templates (Flask frontend)
-├── test.py                     # Unit tests
 └── utils/                      # Helper functions and common utilities
 ```
 ## Local Set Up Instruction
